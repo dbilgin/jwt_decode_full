@@ -1,0 +1,11 @@
+name: jwt_decode_full
+description: A JWT decoder that allows you to extract all the necessary data like the header, payload, expiration date and issued date from a JWT.
+version: 0.9.0
+homepage: https://github.com/dbilgin/jwt_decode_full
+
+environment:
+  sdk: '>=2.17.1 <3.0.0'
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.16.0
