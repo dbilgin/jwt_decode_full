@@ -1,3 +1,7 @@
+## 0.9.2
+
+Fixed expiration calculation.
+
 ## 0.9.1
 
 Fixed the readme import and title.

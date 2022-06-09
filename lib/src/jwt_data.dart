@@ -10,7 +10,7 @@ class JWTData {
     final exp = payload['exp'] as int?;
     return exp == null
         ? null
-        : exp <= DateTime.now().millisecondsSinceEpoch / 1000;
+        : exp < DateTime.now().millisecondsSinceEpoch / 1000;
   }
 
   DateTime? get issuedAt {
