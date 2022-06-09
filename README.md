@@ -1,4 +1,4 @@
-# Dashed Color Circle
+# JWT Decode Full
 
 [![Pub Version](https://img.shields.io/pub/v/jwt_decode_full?color=blueviolet)](https://pub.dev/packages/jwt_decode_full)
 
@@ -11,6 +11,8 @@ Add `jwt_decode_full` as a [dependency in your pubspec.yaml file](https://flutte
 <h1>Usage</h1>
 
 ```dart
+  import 'package:jwt_decode_full/jwt_decode_full.dart';
+
   final jwtData = jwtDecode(myToken);
 
   print('header: ${jwtData.header}');
